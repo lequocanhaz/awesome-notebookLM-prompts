@@ -1,28 +1,27 @@
-# Tốn sức có chắc là có công?
+# Săn tìm năng lượng!
 
 Trò chơi khởi động Bài 23: Năng lượng và công cơ học — Vật lí 10, Kết nối tri thức với cuộc sống.
 
 Giáo viên: Lê Quốc Anh. Lớp: 23SVL.
 
-## Sử dụng
+Chơi trực tuyến: https://lequocanhaz.github.io/awesome-notebookLM-prompts/
 
-Mở `index.html` bằng trình duyệt. Không cần cài phần mềm, máy chủ, API key hoặc tài khoản học sinh. Tất cả tài nguyên nằm trong thư mục này; sau khi tải trọn bộ có thể chơi ngoại tuyến. Không thu thập hoặc gửi dữ liệu học sinh lên mạng.
+## Cách tổ chức
 
-Giáo viên chiếu từng câu; học sinh giơ A/B/C hoặc thảo luận theo nhóm, giáo viên chọn một dự đoán đại diện. Trò chơi có 7 câu, mỗi câu đúng 1 điểm, không giới hạn thời gian. Có thể quay lại sửa trước khi mở đáp án. Sau câu cuối, thảo luận rồi chọn **Mở đáp án & tính điểm**. Nút này phục vụ điều tiết hoạt động, không phải khóa bảo mật.
+Khoảng 5 phút, 7 thử thách. Học sinh quan sát hình, liên hệ kiến thức đời sống và làm động tác xoa tay. Mỗi câu, cả lớp trao đổi khoảng 10–15 giây rồi giơ A/B/C; giáo viên chọn đáp án đại diện. Web không có bộ đếm giờ tự động.
 
-Lượt chơi được lưu trong trình duyệt trên thiết bị hiện tại. Nút **Chơi lại** cho phép xóa lượt sau khi xác nhận. Không có bảng xếp hạng hoặc hệ thống đồng bộ nhiều thiết bị.
+Kết quả và lời giải thích ngắn hiện ngay sau mỗi câu. Mỗi câu đúng thắp sáng một tia năng lượng. Chỉ ghi nhận lần chọn đầu; không đổi câu trả lời để lấy thêm điểm. Có thể quay lại xem câu đã làm.
 
-## Bật GitHub Pages
+Bảy chủ đề: ấm điện, xoa tay, bóng nảy, pin mặt trời, quạt điện, đẩy sách và nâng ô tô. Không yêu cầu công thức, công dương/âm hoặc kiến thức mới của bài. Sau trò chơi, bấm **Mở bài học hôm nay** để hiện tên bài và hai câu hỏi dẫn nhập cho giáo viên.
 
-Mã nguồn web nằm ở nhánh `bai-23-web` của kho `lequocanhaz/awesome-notebookLM-prompts`. Nhánh `main` được giữ nguyên.
+## Dùng ngoại tuyến
 
-1. Mở https://github.com/lequocanhaz/awesome-notebookLM-prompts/settings/pages
-2. Trong Build and deployment, chọn **Deploy from a branch**.
-3. Chọn nhánh **bai-23-web**, thư mục **/(root)**, rồi **Save**.
-4. Chờ GitHub báo triển khai thành công và dùng địa chỉ Pages do GitHub cung cấp.
+Mở `index.html` bằng trình duyệt. Tải đầy đủ thư mục để hình và phông chữ hoạt động. Không cần máy chủ, tài khoản hoặc API key. Lượt chơi được lưu trong trình duyệt hiện tại; không gửi dữ liệu học sinh. Nút Chơi lại có bước xác nhận xóa lượt cũ.
 
-Việc đẩy mã lên nhánh chưa tự bật Pages. Kết nối hiện tại có thể đẩy mã nhưng yêu cầu bật Pages qua API đã bị GitHub từ chối với lỗi `Resource not accessible by integration`.
+## GitHub Pages
+
+Nguồn triển khai: nhánh `bai-23-web`, thư mục `/(root)` trong kho `lequocanhaz/awesome-notebookLM-prompts`. Nhánh main không thay đổi.
 
 ## Tài nguyên
 
-Hình minh họa SVG tự dựng. Phông Noto Sans do Google phân phối, theo SIL Open Font License (xem `assets/OFL.txt`). Không dùng thư viện hoặc tài nguyên CDN. Bản này dùng hình sơ đồ thay cho bốn ảnh hiển thị trong hội thoại vì tệp gốc chưa có trong workspace.
+Hình minh họa SVG tự dựng. Phông Noto Sans theo SIL Open Font License (xem `assets/OFL.txt`). Không dùng CDN hoặc thư viện ngoài.
