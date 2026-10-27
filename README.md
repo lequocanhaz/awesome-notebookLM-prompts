@@ -12,12 +12,16 @@ Giáo viên chiếu từng câu; học sinh giơ A/B/C hoặc thảo luận theo
 
 Lượt chơi được lưu trong trình duyệt trên thiết bị hiện tại. Nút **Chơi lại** cho phép xóa lượt sau khi xác nhận. Không có bảng xếp hạng hoặc hệ thống đồng bộ nhiều thiết bị.
 
-## Đăng GitHub Pages
+## Bật GitHub Pages
 
-1. Tạo kho `vat-li-10-bai-23` trong tài khoản GitHub muốn sử dụng.
-2. Đưa **nội dung bên trong thư mục này** vào gốc kho: `index.html`, `style.css`, `app.js`, `.nojekyll` và thư mục `assets`.
-3. Trong Settings → Pages, chọn **Deploy from a branch**, nhánh `main`, thư mục `/(root)` rồi Save.
-4. Chờ GitHub báo triển khai thành công và dùng địa chỉ Pages mà GitHub cung cấp. Không suy ra rằng website đã hoạt động chỉ từ tên kho.
+Mã nguồn web nằm ở nhánh `bai-23-web` của kho `lequocanhaz/awesome-notebookLM-prompts`. Nhánh `main` được giữ nguyên.
+
+1. Mở https://github.com/lequocanhaz/awesome-notebookLM-prompts/settings/pages
+2. Trong Build and deployment, chọn **Deploy from a branch**.
+3. Chọn nhánh **bai-23-web**, thư mục **/(root)**, rồi **Save**.
+4. Chờ GitHub báo triển khai thành công và dùng địa chỉ Pages do GitHub cung cấp.
+
+Việc đẩy mã lên nhánh chưa tự bật Pages. Kết nối hiện tại có thể đẩy mã nhưng yêu cầu bật Pages qua API đã bị GitHub từ chối với lỗi `Resource not accessible by integration`.
 
 ## Tài nguyên
 
